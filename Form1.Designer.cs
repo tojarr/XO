@@ -46,6 +46,9 @@
             this.xToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.xToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.oToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mediumToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.oToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.oToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.xToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.oToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,15 +57,13 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.mediumToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.xToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.oToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // position1
             // 
             this.position1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.position1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.position1.Location = new System.Drawing.Point(12, 80);
             this.position1.Name = "position1";
             this.position1.Size = new System.Drawing.Size(75, 75);
@@ -74,6 +75,7 @@
             // position2
             // 
             this.position2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.position2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.position2.Location = new System.Drawing.Point(113, 80);
             this.position2.Name = "position2";
             this.position2.Size = new System.Drawing.Size(75, 75);
@@ -85,6 +87,7 @@
             // position3
             // 
             this.position3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.position3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.position3.Location = new System.Drawing.Point(215, 80);
             this.position3.Name = "position3";
             this.position3.Size = new System.Drawing.Size(75, 75);
@@ -96,6 +99,7 @@
             // position4
             // 
             this.position4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.position4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.position4.Location = new System.Drawing.Point(12, 178);
             this.position4.Name = "position4";
             this.position4.Size = new System.Drawing.Size(75, 75);
@@ -107,6 +111,7 @@
             // position5
             // 
             this.position5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.position5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.position5.Location = new System.Drawing.Point(113, 178);
             this.position5.Name = "position5";
             this.position5.Size = new System.Drawing.Size(75, 75);
@@ -118,6 +123,7 @@
             // position6
             // 
             this.position6.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.position6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.position6.Location = new System.Drawing.Point(215, 178);
             this.position6.Name = "position6";
             this.position6.Size = new System.Drawing.Size(75, 75);
@@ -129,6 +135,7 @@
             // position7
             // 
             this.position7.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.position7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.position7.Location = new System.Drawing.Point(12, 278);
             this.position7.Name = "position7";
             this.position7.Size = new System.Drawing.Size(75, 75);
@@ -140,6 +147,7 @@
             // position8
             // 
             this.position8.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.position8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.position8.Location = new System.Drawing.Point(113, 278);
             this.position8.Name = "position8";
             this.position8.Size = new System.Drawing.Size(75, 75);
@@ -151,6 +159,7 @@
             // position9
             // 
             this.position9.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.position9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.position9.Location = new System.Drawing.Point(215, 278);
             this.position9.Name = "position9";
             this.position9.Size = new System.Drawing.Size(75, 75);
@@ -186,20 +195,20 @@
             this.xToolStripMenuItem,
             this.oToolStripMenuItem});
             this.playerVsPlayerMenu.Name = "playerVsPlayerMenu";
-            this.playerVsPlayerMenu.Size = new System.Drawing.Size(180, 22);
+            this.playerVsPlayerMenu.Size = new System.Drawing.Size(151, 22);
             this.playerVsPlayerMenu.Text = "PlayerVsPlayer";
             // 
             // xToolStripMenuItem
             // 
             this.xToolStripMenuItem.Name = "xToolStripMenuItem";
-            this.xToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.xToolStripMenuItem.Size = new System.Drawing.Size(83, 22);
             this.xToolStripMenuItem.Text = "X";
             this.xToolStripMenuItem.Click += new System.EventHandler(this.XToolStripMenuPlayer_Click);
             // 
             // oToolStripMenuItem
             // 
             this.oToolStripMenuItem.Name = "oToolStripMenuItem";
-            this.oToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oToolStripMenuItem.Size = new System.Drawing.Size(83, 22);
             this.oToolStripMenuItem.Text = "O";
             this.oToolStripMenuItem.Click += new System.EventHandler(this.OToolStripMenuPlayer_Click);
             // 
@@ -210,7 +219,7 @@
             this.mediumToolStripMenuItem,
             this.oToolStripMenuItem1});
             this.compVsPlayerMenu.Name = "compVsPlayerMenu";
-            this.compVsPlayerMenu.Size = new System.Drawing.Size(180, 22);
+            this.compVsPlayerMenu.Size = new System.Drawing.Size(151, 22);
             this.compVsPlayerMenu.Text = "CompVsPlayer";
             // 
             // xToolStripMenuItem1
@@ -219,7 +228,7 @@
             this.xToolStripMenuItem2,
             this.oToolStripMenuItem2});
             this.xToolStripMenuItem1.Name = "xToolStripMenuItem1";
-            this.xToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.xToolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
             this.xToolStripMenuItem1.Text = "Easy";
             // 
             // xToolStripMenuItem2
@@ -236,13 +245,36 @@
             this.oToolStripMenuItem2.Text = "O";
             this.oToolStripMenuItem2.Click += new System.EventHandler(this.OToolStripMenuCompEasy_Click);
             // 
+            // mediumToolStripMenuItem
+            // 
+            this.mediumToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.xToolStripMenuItem4,
+            this.oToolStripMenuItem4});
+            this.mediumToolStripMenuItem.Name = "mediumToolStripMenuItem";
+            this.mediumToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.mediumToolStripMenuItem.Text = "Medium";
+            // 
+            // xToolStripMenuItem4
+            // 
+            this.xToolStripMenuItem4.Name = "xToolStripMenuItem4";
+            this.xToolStripMenuItem4.Size = new System.Drawing.Size(83, 22);
+            this.xToolStripMenuItem4.Text = "X";
+            this.xToolStripMenuItem4.Click += new System.EventHandler(this.XToolStripMenuCompMedium_Click);
+            // 
+            // oToolStripMenuItem4
+            // 
+            this.oToolStripMenuItem4.Name = "oToolStripMenuItem4";
+            this.oToolStripMenuItem4.Size = new System.Drawing.Size(83, 22);
+            this.oToolStripMenuItem4.Text = "O";
+            this.oToolStripMenuItem4.Click += new System.EventHandler(this.OToolStripMenuCompMedium_Click);
+            // 
             // oToolStripMenuItem1
             // 
             this.oToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.xToolStripMenuItem3,
             this.oToolStripMenuItem3});
             this.oToolStripMenuItem1.Name = "oToolStripMenuItem1";
-            this.oToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.oToolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
             this.oToolStripMenuItem1.Text = "Hard";
             // 
             // xToolStripMenuItem3
@@ -262,7 +294,7 @@
             // restartToolStripMenuItem
             // 
             this.restartToolStripMenuItem.Name = "restartToolStripMenuItem";
-            this.restartToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.restartToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.restartToolStripMenuItem.Text = "New Game";
             this.restartToolStripMenuItem.Click += new System.EventHandler(this.RestartToolStripMenuItem_Click);
             // 
@@ -309,29 +341,6 @@
             this.textBox3.TabIndex = 12;
             this.textBox3.Text = "PlayerVsPlayer";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // mediumToolStripMenuItem
-            // 
-            this.mediumToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.xToolStripMenuItem4,
-            this.oToolStripMenuItem4});
-            this.mediumToolStripMenuItem.Name = "mediumToolStripMenuItem";
-            this.mediumToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.mediumToolStripMenuItem.Text = "Medium";
-            // 
-            // xToolStripMenuItem4
-            // 
-            this.xToolStripMenuItem4.Name = "xToolStripMenuItem4";
-            this.xToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
-            this.xToolStripMenuItem4.Text = "X";
-            this.xToolStripMenuItem4.Click += new System.EventHandler(this.XToolStripMenuCompMedium_Click);
-            // 
-            // oToolStripMenuItem4
-            // 
-            this.oToolStripMenuItem4.Name = "oToolStripMenuItem4";
-            this.oToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
-            this.oToolStripMenuItem4.Text = "O";
-            this.oToolStripMenuItem4.Click += new System.EventHandler(this.OToolStripMenuCompMedium_Click);
             // 
             // Form1
             // 
